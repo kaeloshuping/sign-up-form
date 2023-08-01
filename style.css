@@ -64,10 +64,11 @@ html, body {
 #logo-container {
     width: 40%;
     height: 100vh;
-    background-image: url(kellen-riggin-wb3tiKEPDk0-unsplash.jpg);
+    background-image: url(gurupad-hegde-JQ94tqNbuy0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 80%;
 }
 
 #details-container {
