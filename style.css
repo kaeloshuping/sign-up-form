@@ -62,7 +62,7 @@ html, body {
 }
 
 #logo-container {
-    width: 40%;
+    width: 35%;
     height: 100vh;
     background-image: url(gurupad-hegde-JQ94tqNbuy0-unsplash.jpg);
     background-size: cover;
@@ -72,7 +72,11 @@ html, body {
 }
 
 #details-container {
-    width: 60%;
+    width: 65%;
     height: 100vh;
     background-color: rgb(30, 31, 70);
+}
+
+td {
+    border: 1px solid white;
 }
