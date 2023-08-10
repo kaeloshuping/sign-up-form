@@ -69,6 +69,30 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     opacity: 80%;
+    display: flex;
+    align-items: center;
+}
+
+#logo-background {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 40%;
+    height: 80%;
+    color: #ccc;
+}
+
+#company-name {
+    font-size: large;
+    font-weight: bold;
+    color: #ccc;
 }
 
 #details-container {
@@ -76,6 +100,7 @@ html, body {
     height: 100vh;
     background-color: rgb(30, 31, 70);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -83,7 +108,6 @@ html, body {
 form {
     width: 90%;
     padding: 1em;
-    border: 1px solid #ccc;
 }
 
 #form-text {
@@ -93,13 +117,13 @@ form {
 }
 
 h2 {
-    padding: 1em;
+    padding: 0 1em;
     color: #ccc;
 }
 
 input {
-    width: 150px;
-    padding: 0;
+    width: 100%;
+    padding: 2px;
     margin: 0;
     align-self: flex-end;
     box-sizing: border-box;
@@ -110,22 +134,43 @@ table {
 }
 
 td {
-    border: 1px solid #ccc;
-    padding: 1em;
+    padding: 1em 1em 1em 0;
 }
 
 button {
     padding: 1em;
-    margin-left: 1em;
+    margin-left: 15px;
+    background-color: #3c4e5e;
+    color: #ccc;
+}
+
+button:hover {
+    background-color: #98b3ca;
+    color: black;
 }
 
 li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 10px 0;
 }
 
 label {
     padding: 2px;
     margin: 2px;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
+#existing-account {
+    color: #ccc;
+    padding: 1em;
+}
+
+a {
+    color: #657685;
+    text-decoration: none;
 }
